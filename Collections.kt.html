@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Collections.kt</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #000000;}
+.s1 { color: #808080; font-style: italic;}
+.s2 { color: #000080; font-weight: bold;}
+.s3 { color: #008000; font-weight: bold;}
+.s4 { color: #0000ff;}
+</style>
+</head>
+<body bgcolor="#ffffff">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#c0c0c0" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+Collections.kt</font>
+</center></td></tr></table>
+<pre>
+<span class="s1">//Definition of List and Array</span>
+A list and arrays are different ways of storing multiple values <span class="s2">in </span>a single location and are
+generally stocked or restricted to one specific type.
+
+We can have a list of integers, booleans, numbers or strings. Most times we don<span class="s3">'t mix the list</span>
+of integers or booleans or numbers together. Elements can not be added or removed
+
+<span class="s1">//Examples</span>
+<span class="s2">var </span>weekdays = listOf&lt;String&gt;(<span class="s3">&quot;Monday&quot;</span>, <span class="s3">&quot;Tuesday&quot;</span>, <span class="s3">&quot;Wednesday&quot;</span>, <span class="s3">&quot;Thursday&quot;</span>, <span class="s3">&quot;Friday&quot;</span>)
+weekdays.get(<span class="s4">0</span>)
+weekdays[<span class="s4">0</span>]
+
+<span class="s2">var </span>myNetwork = arrayOf&lt;string&gt;(<span class="s3">&quot;Mtn&quot;</span>, <span class="s3">&quot;Zain&quot;</span>, <span class="s3">&quot;Celtel&quot;</span>, <span class="s3">&quot;Airtel&quot;</span>, <span class="s3">&quot;9Mobile&quot;</span>)
+myNetwork.set(<span class="s4">1</span>, <span class="s3">&quot;Glo&quot;</span>)
+
+        <span class="s1">//Definition of Mutable List</span>
+Mutable list definition <span class="s2">is </span>similar to the unmutable list defined except that elements can be added
+or removed
+        <span class="s1">//Examples</span>
+        <span class="s2">var </span>names = mutableListOf&lt;string&gt;(<span class="s3">&quot;Quazim&quot;</span>, <span class="s3">&quot;Adebayo&quot;</span>, <span class="s3">&quot;Akinwande&quot;</span>)
+        names.add(Adewale)
+        names.remove(<span class="s4">0</span>, Quazim)
+
+        <span class="s2">var </span>cars = arrayListOf&lt;string&gt;(<span class="s3">&quot;Toyota&quot;</span>, <span class="s3">&quot;Honda&quot;</span>, <span class="s3">&quot;Volvo&quot;</span>)
+        cars.add(<span class="s4">1</span>, <span class="s3">&quot;jeep&quot;</span>)</pre>
+</body>
+</html>
